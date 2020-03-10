@@ -5,3 +5,5 @@ install:
   - pip install -r requirements.txt
 script:
   - covid-19-uk-scraper
+after_success:
+  - sh .travis-push.sh
