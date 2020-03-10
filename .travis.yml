@@ -4,7 +4,7 @@ python:
 install:
   - pip install -r requirements.txt
 script:
-  - covid-19-uk-scraper
+  - python covid-19-uk-scraper
 deploy:
   provider: pages
   skip_cleanup: true
